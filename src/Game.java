@@ -14,7 +14,7 @@ public class Game{
 
 
     // making a window for the application
-    JFrame frame = new JFrame("Mineswepper");
+    JFrame frame = new JFrame("Minesweeper");
     JLabel textLable = new JLabel();
     JPanel textPanel = new JPanel();
 
