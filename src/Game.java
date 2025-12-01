@@ -20,25 +20,23 @@ public class Game{
 
 
 
-    public Game(String level){
+    public Game(String level) {
 
         // different size for different level
 
-        if (level.equals("e")){
+        if (level.equals("e")) {
             this.tilesize = 70;
             this.numRow = 8;
         }
 
         //to avoid multiple checks using else if
-        else if (level.equals("m")){
+        else if (level.equals("m")) {
             this.tilesize = 35;
             this.numRow = 16;
-        }
-        else if (level.equals("d")){
+        } else if (level.equals("d")) {
             this.tilesize = 17;
             this.numRow = 20;
-        }
-        else System.out.println("unknown");
+        } else System.out.println("unknown");
 
 
         // initialization
@@ -48,14 +46,14 @@ public class Game{
         this.boardwidth = this.numCol * this.tilesize;
         this.boardheight = this.numRow * this.tilesize;
 
-        frame.setSize(boardwidth,boardheight);
+        frame.setSize(boardwidth, boardheight);
         //frame.setLocation();
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
         frame.setVisible(true);
     }
-
+    TEST
 
 }
 
