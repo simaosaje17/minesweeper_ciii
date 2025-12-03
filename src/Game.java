@@ -55,7 +55,7 @@ public class Game{
         frame.setLayout(new BorderLayout());
         frame.setVisible(true);
     }
-    TEST
+   
 
 }
 
