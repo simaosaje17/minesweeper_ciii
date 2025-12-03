@@ -29,6 +29,8 @@ public class Game{
             this.numRow = 8;
         }
 
+        // something
+
         //to avoid multiple checks using else if
         else if (level.equals("m")) {
             this.tilesize = 35;
